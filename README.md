@@ -27,27 +27,8 @@ Le projet a été conçu et simulé sous **Cisco Packet Tracer**, avec un **adre
 ---
 
 ## 🗺️ Topologie du réseau
+<img width="905" height="354" alt="image" src="https://github.com/user-attachments/assets/5a5bd0ba-6338-416b-966c-0b86f0d304d5" />
 
-    +-------------+
-    |   PARIS     |
-    | (Router4)   |
-    +-------------+
-          |
-    10.10.10.0/30
-          |
-    +-------------+
-    |    LYON     |
-    | (Router5)   |
-    +-------------+
-          |
-    10.10.10.4/30
-          |
-    +-------------+
-    | MARSEILLE   |
-    | (Router6)   |
-    +-------------+
-
-Chaque site est relié à son **switch local** en **trunk**, et les VLANs sont gérés sur les sous-interfaces du routeur.
 
 ---
 
